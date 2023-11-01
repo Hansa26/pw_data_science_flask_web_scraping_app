@@ -1,4 +1,4 @@
-# pw_data_science_flask_web_scraping_app
+# Web Scraping
 
 This application scrapes the images from Google and store it in local directory and display the image from the directory. 
 
