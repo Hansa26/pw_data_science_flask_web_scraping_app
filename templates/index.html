@@ -4,6 +4,15 @@
     <title>Display Images</title>
 </head>
 <body>
+    <h1>Input Form</h1>
+    <form method="POST" action="/result">
+        <label for="user_input">Enter something: </label>
+        <input type="text" name="user_input" id="user_input">
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <br>
+    <br>
     <h1>Images from Directory</h1>
     <div id="image-container">
         {% for image_file in image_files %}
